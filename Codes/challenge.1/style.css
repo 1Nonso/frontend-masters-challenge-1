@@ -7,7 +7,7 @@
 
 .img1 {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   height: auto;
   max-width: 100%;
 }
@@ -71,10 +71,9 @@ p {
 @media (min-width: 1025px) {
   .img1 {
     display: block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     height: auto;
     max-width: 100%;
-    margin: 1rem;
   }
 
   h3 {
@@ -84,6 +83,10 @@ p {
   #td,
   h2 {
     color: hsl(14, 45%, 36%);
+  }
+
+  .meal_content {
+    margin: 2rem;
   }
 
   table {
