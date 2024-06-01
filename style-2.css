@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:375px){
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 30rem;
+    width: max-content;
+    align-content: center;
+}
+
+h3{
+    background-color: hsl(47, 88%, 63%);
+    max-width: 6rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+h2{
+    /* font-size: 25px; */
+    padding-bottom: 0.5rem;
+}
+
+p{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    
+}
+
+.yellow-background{
+    display: flex;
+    height: 50rem;
+    width: 50rem;
+    flex-flow: column, row;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-style{
+    border-color: black;
+    border-style: outset;
+    border-width: 0.5rem;
+    border-radius: 2rem;
+    border-top: hsl(47, 88%, 63%);
+    border-left: hsl(47, 88%, 63%);
+
+}
+
+.flex-container{
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    display: flexbox;
+    border-radius: 1rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(146, 144, 144);
+}
+
+a{
+    text-decoration: none;
+}
+
+.body{
+    padding: 1rem;
+}
+
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.img1{
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.img{
+    padding-top: 1rem;
+}
+
+}
+
+
+@media  screen and (min-width:1440px){
+    
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+h3{
+    background-color: hsl(47, 88%, 63%);
+    max-width: 5rem;
+    border-radius: 0.5rem;
+}
+
+h2{
+    padding-bottom: 0.5rem;
+}
+
+p{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    
+}
+
+.yellow-background{
+    display: flex;
+    /* height: 20rem; */
+    /* width: 77rem; */
+    flex-flow: column, row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    display: flexbox;
+    border-radius: 1rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(146, 144, 144);
+}
+
+a{
+    text-decoration: none;
+}
+
+.body{
+    padding: 1rem;
+}
+
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.img1{
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.img{
+    padding-top: 1rem;
+}
+
+}
