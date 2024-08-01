@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#flex-container {
+  margin: 1.5rem;
+}
+
+.flex-items {
+  padding: 2rem;
+}
+
+p,
+h2,
+img {
+  margin: 0.7rem 0 0.7rem 0;
+}
+
+.buttons {
+  display: inline;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+  border-radius: 1.7rem;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+}
+
+.paragraph {
+  margin-bottom: 2.4rem;
+  line-height: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#flex-item1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: hsl(31, 77%, 52%);
+}
+
+#flex-item2 {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+#flex-item3 {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: hsl(179, 100%, 13%);
+}
+
+#first-button:hover {
+  background-color: hsl(31, 77%, 52%);
+  cursor: pointer;
+  color: #fff;
+  border-color: #fff;
+  border: 1px solid;
+}
+
+#second-button:hover {
+  background-color: hsl(184, 100%, 22%);
+  cursor: pointer;
+  color: #fff;
+  border-color: #fff;
+  border: 1px solid;
+}
+
+#third-button:hover {
+  background-color: hsl(179, 100%, 13%);
+  cursor: pointer;
+  color: #fff;
+  border-color: #fff;
+  border: 1px solid;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    height: 100dvh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    padding: 0 7rem 0 7rem;
+  }
+
+  #flex-container {
+    display: flex;
+  }
+
+  #flex-item1 {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+  }
+
+  #flex-item3 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .flex-items {
+    height: 50dvh;
+    padding: 1.5rem 3rem 3rem 3rem;
+  }
+
+  .paragraph {
+    margin-bottom: 3rem;
+  }
+
+  img {
+    height: 3rem;
+    width: 4.5rem;
+  }
+
+  h2 {
+    /* margin: 2.6rem 0rem; */
+    height: 2rem;
+    font-size: 2rem;
+  }
+}
